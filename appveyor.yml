@@ -10,7 +10,7 @@ nuget:
   account_feed: true
   project_feed: true
 artifacts:
-- path: '**\octokit*.nupkg'
+- path: 'packaging\octokit*.nupkg'
 deploy:
 - provider: NuGet
   server: https://www.myget.org/F/octokit-test/api/v2/package
