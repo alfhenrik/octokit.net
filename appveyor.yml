@@ -17,7 +17,7 @@ deploy:
   api_key:
     secure: 9ydM6g6KP4SSZmMQV5PE++3tlLBH3wTTMyO2GBgr2F1st/YNG3ZdGTWZ96FA7kqa
   skip_symbols: true
-  artifact: '**\octokit*.nupkg'
+  artifact: /octokit.*\.nupkg/
   on:
     branch: release
     APPVEYOR_REPO_TAG: true
